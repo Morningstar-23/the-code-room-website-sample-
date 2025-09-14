@@ -742,13 +742,13 @@ svg {
   }
 
   .hero-second-subheading {
-    font-size: 16px;
+    font-size: 15px;
   }
 
   .arrow-svg-wrapper {
     position: absolute;
     /* let it move with the hero section */
-    left: 36%;
+    left: 37%;
     /* center horizontally */
     bottom: 5%;
     /* distance from bottom of hero section */
