@@ -777,4 +777,15 @@ svg {
     padding: 0 10px;        /* ensure text doesn’t overflow */
     text-align: center;     /* center the paragraph */
   }
+
+    .contact-container .section-text {
+    word-break: break-word;   /* allow breaking long links/emails */
+    overflow-wrap: anywhere;  /* prevent cut-off */
+    text-align: center;       /* optional: center them for neatness */
+    font-size: 1rem;          /* keep text readable but not oversized */
+  }
+
+  .contact-container .section-heading {
+    justify-content: center;  /* center heading + icon */
+  }
 }
